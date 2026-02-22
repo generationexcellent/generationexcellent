@@ -1,0 +1,106 @@
+
+@media only screen and (max-width: 850px) {
+
+    html{
+        overflow-x: hidden;
+    }
+
+    #wrapper{
+        overflow-x: hidden;
+        position: relative;
+    }
+    
+
+h1{
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+p{
+    width: 95%;
+    padding: 0%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+
+
+.section{
+    display: block;
+}
+
+.box{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+nav{
+    display: none;
+}
+
+#video{
+    width: 90vw;
+}
+
+#hero{
+    height: 100vh;
+}
+
+#logo{
+    top: 40vh;
+    width: 85vw;
+    min-width: 1px;
+    max-width: 500px;
+}
+
+.desktop{
+    display: none;
+}
+
+.mobile{
+    display: block;
+}
+
+.mobileimg{
+    display: block;
+
+}
+
+.section{
+    padding-top: 3rem;
+}
+
+#dates{
+    margin-top: 2rem;
+}
+
+#dates h2{
+    font-size: 1.5rem;
+}
+
+#ministry{
+    padding-bottom: 4rem;
+}
+
+#contact{
+    background-image: url(../images/GenEx_footer-mobile.jpg);
+        background-attachment: scroll;
+        background-position: center;
+        height: 100vh;
+        padding-top: 0px;
+
+}
+
+#contact h1{
+    padding-top: 4rem;
+}
+
+
+}
