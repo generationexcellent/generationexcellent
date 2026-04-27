@@ -44,11 +44,11 @@ h2{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--red);
   text-align: center;
-  margin-top: 2rem;
-  font-style: italic;
+  margin-top: 1rem;
+    font-style: italic;
 }
 
 h3{
@@ -62,6 +62,7 @@ h3{
   font-size: 1.1rem;
   width: 90%; 
   margin: 1rem auto;
+
 }
 
 nav h3{
@@ -241,12 +242,59 @@ align-items: flex-start
 #dates{
   width: 100%;
   padding: 0px;
-  padding-top: 20vh;
-  padding-bottom: 20vh;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
   margin: 2% auto;
-  background-color: rgb(255, 250, 245)
+  background-color: rgb(255, 250, 245);
+   
 }
 
 #dates h2{
-  font-size: 2.2rem;
+  font-size: 2rem;
+  font-style: normal;
+  /* border: 1px solid red; */
 }
+#dates h3{
+  font-size: 1.2rem;
+  color: var(--red);
+  margin-top: .5rem;
+  font-style: italic;
+}
+
+.date h2{
+  text-align: left;
+  margin-right: 2rem;
+}
+
+.address h2, .address h3{
+  text-align: right;
+}
+
+.address h2{
+  font-weight: 600;
+}
+
+.address{
+  margin-left: auto;
+}
+
+.programtype h5{
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: .1rem;
+  font-size: 1rem;
+  margin: 0px;
+  margin-bottom: .5rem;
+  color: var(--red);
+
+}
+
+.event{
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  border-top: 2px solid var(--red);
+  display: flex;
+}
+

@@ -79,6 +79,7 @@ nav{
 
 #dates{
     margin-top: 2rem;
+    padding-top: 4rem;
 }
 
 #dates h2{
@@ -102,5 +103,39 @@ nav{
     padding-top: 4rem;
 }
 
+.event{
+    width: 90%;
+    display: block;
+
+}
+
+.date h2{
+  text-align: center;
+  margin-right: 0px;
+}
+
+.address h2, .address h3{
+  text-align: center;
+}
+
+#dates h2{
+  font-size: 1.7rem;
+  font-style: normal;
+}
+#dates h3{
+  font-size: 1.1rem;
+  color: var(--red);
+  margin-top: .5rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.programtype h5{
+    margin-bottom: 1rem;
+}
+
+#christmas{
+    margin-top: 5rem;
+}
 
 }
