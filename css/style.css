@@ -252,7 +252,7 @@ align-items: flex-start
 #dates h2{
   font-size: 2rem;
   font-style: normal;
-  /* border: 1px solid red; */
+  line-height: 2.5rem;
 }
 #dates h3{
   font-size: 1.2rem;
@@ -282,11 +282,15 @@ align-items: flex-start
   text-align: center;
   text-transform: uppercase;
   font-style: normal;
+  font-weight: 600;
   letter-spacing: .1rem;
   font-size: 1rem;
-  margin: 0px;
-  margin-bottom: .5rem;
   color: var(--red);
+  border-top: 2.5px solid var(--red);
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
 
 }
 
@@ -294,7 +298,7 @@ align-items: flex-start
   width: 60%;
   margin: 0 auto;
   margin-bottom: 3rem;
-  border-top: 2px solid var(--red);
+  border-top: 1px solid var(--red);
   display: flex;
 }
 
