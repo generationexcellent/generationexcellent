@@ -127,6 +127,10 @@ p{
   font-weight: 600;
 }
 
+.it{
+  font-style: italic;
+}
+
 nav{
   position: fixed;
   width: 100vw;
